@@ -81,7 +81,7 @@ def main():
             elif user_input.lower() == "clear":
                 os.system("cls" if os.name == "nt" else "clear")
                 continue
-            elif "price" in user_input.lower() or any(coin in user_input.lower() for coin in price_data):
+            elif any(phrase in user_input.lower() for phrase in ["price", "how much", "value"]):
                 print(handle_price_query(user_input))
             else:
                 prompt = build_prompt(user_input)
