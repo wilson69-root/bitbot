@@ -118,12 +118,36 @@ python app.py
 
 ## Future Enhancements
 
-- Real-time cryptocurrency price data from external APIs
-- Support for additional cryptocurrencies
-- Price alerts and notifications
-- User authentication and saved preferences
-- Trading simulations and portfolio tracking
-- Mobile responsiveness improvements
+### Real-time Data Integration
+- **Cryptocurrency API Integration**:
+  - Connect to CoinGecko, CoinMarketCap, or Binance APIs for real-time price data
+  - Implement websocket connections for live price updates without refreshing
+  - Add historical data endpoints for more accurate and comprehensive charts
+
+- **Market Sentiment Analysis**:
+  - Integrate with Twitter/X API to analyze social media sentiment about cryptocurrencies
+  - Implement news aggregation from crypto news sources
+  - Create sentiment indicators to complement price data
+
+- **Advanced Charting Features**:
+  - Add technical indicators (Moving Averages, RSI, MACD)
+  - Implement candlestick charts with volume indicators
+  - Support for different timeframes (1h, 4h, 1d, 1w)
+
+### Extended Functionality
+- **Support for 50+ cryptocurrencies** with detailed profiles and statistics
+- **Price alerts and notifications** via email or browser notifications
+- **User authentication system** with saved preferences and watchlists
+- **Trading simulations** with paper trading functionality
+- **Portfolio tracking** with performance analytics and visualizations
+- **Mobile app version** using Flutter or React Native
+
+### AI and ML Enhancements
+- **Price prediction models** using machine learning
+- **Personalized trading recommendations** based on risk profile
+- **Enhanced conversation context** for more natural interactions
+- **Voice interface** for hands-free operation
+- **Multi-language support** for global accessibility
 
 ## Dependencies
 
